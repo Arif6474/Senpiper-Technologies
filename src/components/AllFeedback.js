@@ -10,7 +10,7 @@ const AllFeedback = () => {
    
     const getFeedbackData = async () => {
       try {
-        const results = await axios.get("http://localhost:5000/feedback");
+        const results = await axios.get("https://senpiper-server-side.vercel.app/feedback");
         setFeedbacks(results.data);
         setFilteredData(results.data);
       } catch (error) {

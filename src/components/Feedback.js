@@ -20,7 +20,7 @@ const Feedback = () => {
     password.current = watch("password", "");
     const onSubmit = async (data) => {
 
-      const url = `http://localhost:5000/feedback`
+      const url = `https://senpiper-server-side.vercel.app/feedback`
       fetch(url,{
           method: 'POST',
           headers: {'content-type' : 'application/json'},
