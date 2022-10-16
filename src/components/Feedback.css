@@ -27,6 +27,7 @@
     padding: 10px 15px;
     margin-bottom: 10px;
     font-size: 14px;
+    color: #0e101c;
   }
   
   label {
@@ -42,20 +43,20 @@
   
   button[type="submit"],
   input[type="submit"] {
-    background: #ec5990;
+    background: #1aa421;
     color: white;
-    text-transform: uppercase;
+  
     border: none;
     margin-top: 40px;
-    padding: 20px;
+    padding: 10px;
     font-size: 16px;
-    font-weight: 100;
-    letter-spacing: 10px;
+    font-weight: 500;
+   
   }
   
   button[type="submit"]:hover,
   input[type="submit"]:hover {
-    background: #bf1650;
+    background: #0e953d;
   }
   
   button[type="submit"]:active,
