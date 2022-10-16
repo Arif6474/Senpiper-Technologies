@@ -4,7 +4,7 @@ const useFeedback = () => {
     const [feedbacks , setFeedbacks] = useState([])
     
     useEffect(() => {
-        fetch('http://localhost:5000/feedback')
+        fetch('https://senpiper-server-side.vercel.app/feedback')
         .then(res => res.json())
         .then(data => setFeedbacks(data));
     },[])
