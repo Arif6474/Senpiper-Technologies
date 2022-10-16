@@ -1,10 +1,11 @@
 import React from 'react';
-import Toast from './Toast';
+import Feedback from './Feedback';
 
 const Home = () => {
     return (
         <div>
-            <Toast/>
+          <Feedback/>
+
         </div>
     );
 };

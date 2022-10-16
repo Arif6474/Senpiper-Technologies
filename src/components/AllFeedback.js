@@ -18,6 +18,7 @@ const AllFeedback = () => {
       }
     };
     const columns = [
+      
         {
           name: <h1 className="table-header">Customer Name</h1>,
           selector: (row) => row.name,
@@ -38,7 +39,7 @@ const AllFeedback = () => {
         },
         {
           name: <h1 className="table-header">Please</h1>,
-          selector: (row) => row.beverage[0],
+ 
          
         }
       ];
